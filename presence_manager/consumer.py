@@ -58,3 +58,37 @@ class PresenceConsumerSubmited(GenericAsyncAPIConsumer):
         from datetime import datetime
 
         return datetime.now().isoformat()
+
+
+from channels.generic.websocket import AsyncJsonWebsocketConsumer
+
+
+class GenerateSeance(AsyncJsonWebsocketConsumer):
+    async def connect(self):
+        # Le client rejoint le groupe "seances_du_jour"
+        await self.channel_layer.group_add("seances_du_jour", self.channel_name)
+        await self.accept()  # Accepte la connexion WebSocket
+
+    async def disconnect(self, code):
+        # Le client quitte le groupe
+        await self.channel_layer.group_discard("seances_du_jour", self.channel_name)
+
+    # Cette méthode correspond au type "nouvelle_seance"
+    async def nouvelle_seance(self, event):
+        await self.send_json(event["message"])
+
+
+from channels.generic.websocket import AsyncWebsocketConsumer
+import json
+
+
+class SenderCours(AsyncWebsocketConsumer):
+    async def connect(self):
+        await self.channel_layer.group_add("presence_group", self.channel_name)
+        await self.accept()
+
+    async def disconnect(self, close_code):
+        await self.channel_layer.group_discard("presence_group", self.channel_name)
+
+    async def send_presence_message(self, event):
+        await self.send(text_data=json.dumps(event["message"]))

@@ -14,6 +14,7 @@ class PresenceConfig(AppConfig):
     name = "presence_manager"
 
     def ready(self):
-        from .tasks import start_presence_scheduler
+        from .tasks import start_presence_scheduler, Cstart_presence_scheduler
 
         start_presence_scheduler()
+        Cstart_presence_scheduler()
