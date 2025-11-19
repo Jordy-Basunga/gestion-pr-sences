@@ -81,6 +81,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "src.wsgi.application"
 
+CELERY_BROKER_URL = "redis://127.0.0.1:6379"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
@@ -125,7 +126,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "fr-cd"
 
 TIME_ZONE = "UTC"
 

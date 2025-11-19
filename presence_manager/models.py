@@ -1,5 +1,7 @@
 from django.db import models
 
+from presence_manager.utils import STATUT_CHOIX
+
 # Create your models here.
 
 
@@ -45,6 +47,7 @@ class HoraireCours(models.Model):
     class Meta:
         db_table = "horaire_cours"
         verbose_name = "Horaire de Cours"
+
         verbose_name_plural = "Horaires de Cours"
 
 
@@ -60,6 +63,12 @@ class SeanceCoure(models.Model):
     date_seance = models.DateField()
     heure_debut = models.TimeField()
     heure_fin = models.TimeField()
+    status = models.CharField(
+        max_length=9,
+        choices=STATUT_CHOIX,  # <- Application des choix ici
+        default="en_cours",  # <- Optionnel : définir une valeur par défaut
+        verbose_name="Statut",
+    )
 
     def __str__(self):
         return f"Seance de {self.horaire_cours.cours.nom} le {self.date_seance}"

@@ -20,8 +20,8 @@ def convertir_weekday_en_nom(weekday: int) -> str:
     return jours.get(weekday, "")
 
 
-from datetime import date
-
-today = date.today()
-jour_actuel = convertir_weekday_en_nom(today.weekday())
-print(f"Aujourd'hui, nous sommes : {jour_actuel}")
+STATUT_CHOIX = [
+    ("en_cours", "En Cours"),  # Stocké: 'en_cours', Affiché: 'En Cours'
+    ("termine", "Terminé"),  # Stocké: 'termine', Affiché: 'Terminé'
+    ("arrete", "Arrêté"),  # Stocké: 'arrete', Affiché: 'Arrêté')
+]

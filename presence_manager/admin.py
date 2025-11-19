@@ -41,7 +41,13 @@ class HoraireCoursAdmin(admin.ModelAdmin):
 # ============================
 @admin.register(SeanceCoure)
 class SeanceCoureAdmin(admin.ModelAdmin):
-    list_display = ("horaire_cours", "date_seance", "heure_debut", "heure_fin")
+    list_display = (
+        "horaire_cours",
+        "date_seance",
+        "heure_debut",
+        "heure_fin",
+        "status",
+    )
     search_fields = ("horaire_cours__cours__nom", "date_seance")
     list_filter = ("date_seance",)
     ordering = ("-date_seance",)

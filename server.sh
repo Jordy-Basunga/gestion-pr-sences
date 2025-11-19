@@ -1,0 +1,1 @@
+DJANGO_SETTINGS_MODULE=src.settings daphne -p 8001 src.asgi:application
