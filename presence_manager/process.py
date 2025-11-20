@@ -1,5 +1,5 @@
 from datetime import date, datetime
-from presence_manager.models import *
+
 from .utils import convertir_weekday_en_nom
 from .models import HoraireCours, SeanceCoure
 from celery import shared_task

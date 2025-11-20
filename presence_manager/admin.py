@@ -2,9 +2,27 @@ from django.contrib import admin
 from presence_manager.models import (
     Cours,
     HoraireCours,
-    SeanceCoure,
     Presence,
+    Classe,
+    SeanceCours,
 )
+
+
+@admin.register(Classe)
+class ClasseAdmin(admin.ModelAdmin):
+    """
+    Représente une classe d'étudiants dans l'institution,
+    """
+
+    list_display = (
+        "nom",
+        "description",
+        "annee_academique",
+        "created_at",
+        "code_terminal",
+    )
+    search_fields = ("nom", "description", "annee_academique")
+    ordering = ("-created_at",)
 
 
 # ============================
@@ -37,10 +55,10 @@ class HoraireCoursAdmin(admin.ModelAdmin):
 
 
 # ============================
-#   Admin SeanceCoure
+#   Admin SeanceCours
 # ============================
-@admin.register(SeanceCoure)
-class SeanceCoureAdmin(admin.ModelAdmin):
+@admin.register(SeanceCours)
+class SeanceCoursAdmin(admin.ModelAdmin):
     list_display = (
         "horaire_cours",
         "date_seance",
@@ -58,17 +76,17 @@ class SeanceCoureAdmin(admin.ModelAdmin):
 # ============================
 @admin.register(Presence)
 class PresenceAdmin(admin.ModelAdmin):
-    list_display = ("seance_coure", "id_etudiant", "present")
-    search_fields = ("id_etudiant", "seance_coure__horaire_cours__cours__nom")
+    list_display = ("seance_cours", "id_etudiant", "present")
+    search_fields = ("id_etudiant", "seance_cours__horaire_cours__cours__nom")
     list_filter = ("present",)
-    ordering = ("seance_coure", "id_etudiant")
+    ordering = ("seance_cours", "id_etudiant")
 
 
 # ============================
 #   Custom titles
 # ============================
-admin.site.site_header = "Gestion de Présence"
-admin.site.site_title = "Gestion de Présence - Administration"
+admin.site.site_header = "Gestion des Présences"
+admin.site.site_title = "Gestion des Présences - Administration"
 admin.site.index_title = (
-    "Bienvenue sur le portail d'administration de la gestion de présence"
+    "Bienvenue sur le portail d'administration de la gestion des présences"
 )

@@ -1,8 +1,31 @@
 from django.db import models
-
+from uuid import uuid4
 from presence_manager.utils import STATUT_CHOIX
 
+
 # Create your models here.
+class Classe(models.Model):
+    """
+    Représente une classe (promotion) contenant un ensemble d'étudiants
+    et associée à plusieurs cours.
+    """
+
+    nom = models.CharField(max_length=100, unique=True, db_index=True)
+    description = models.TextField(blank=True)
+    annee_academique = models.CharField(max_length=20, blank=True)  # ex : 2024-2025
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    code_terminal = models.UUIDField(
+        default=uuid4, editable=False, unique=True, auto_created=True
+    )
+
+    def __str__(self):
+        return self.nom
+
+    class Meta:
+        db_table = "classe"
+        verbose_name = "Classe"
+        verbose_name_plural = "Classes"
 
 
 class Cours(models.Model):
@@ -18,6 +41,9 @@ class Cours(models.Model):
     status = models.CharField(max_length=50)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    classe = models.ForeignKey(
+        Classe, on_delete=models.CASCADE, default=0, blank=True, null=True
+    )
     id_professeur = models.IntegerField()
 
     def __str__(self):
@@ -51,7 +77,7 @@ class HoraireCours(models.Model):
         verbose_name_plural = "Horaires de Cours"
 
 
-class SeanceCoure(models.Model):
+class SeanceCours(models.Model):
     """
     Représente une séance de cours spécifique, incluant la date, l'heure de début et de fin,
     et est liée à un horaire de cours via une clé étrangère.
@@ -86,7 +112,7 @@ class Presence(models.Model):
     cette table represente Liste de presence des etudiants pour une seance donnee
     """
 
-    seance_coure = models.ForeignKey(SeanceCoure, on_delete=models.CASCADE)
+    seance_cours = models.ForeignKey(SeanceCours, on_delete=models.CASCADE)
     id_etudiant = models.IntegerField()
     present = models.BooleanField(default=False)
 

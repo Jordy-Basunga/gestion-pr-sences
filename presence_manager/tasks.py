@@ -13,8 +13,8 @@ def run_tasks():
 
 from datetime import date, datetime
 from presence_manager.models import *
-from .utils import convertir_weekday_en_nom
-from .models import HoraireCours, SeanceCoure
+from .utils import convertir_weekday_en_nom, groupe_name
+from .models import HoraireCours, SeanceCours
 from celery import shared_task
 import logging
 
@@ -51,7 +51,7 @@ def generer_seances_du_jour():
     for horaire in horaires_du_jour:
         print("[Tâche] Traitement de l'horaire :", {today}, "cool")
         # Vérifier si la séance existe déjà pour aujourd'hui
-        existe = SeanceCoure.objects.filter(
+        existe = SeanceCours.objects.filter(
             horaire_cours=horaire, date_seance=today
         ).exists()
 
@@ -65,7 +65,7 @@ def generer_seances_du_jour():
         print("[Tâche] Vérification de l'heure pour l'horaire :", horaire)
         if horaire.heure_debut <= now:
             # Créer la séance
-            seance = SeanceCoure.objects.create(
+            seance = SeanceCours.objects.create(
                 horaire_cours=horaire,
                 date_seance=today,
                 heure_debut=horaire.heure_debut,
@@ -79,7 +79,7 @@ def generer_seances_du_jour():
 
 from celery import shared_task
 from django.utils import timezone
-from presence_manager.models import SeanceCoure
+from presence_manager.models import SeanceCours
 
 
 @shared_task
@@ -93,7 +93,7 @@ def task_verify_closed_seance():
     current_time = now.time()
 
     # Récupérer toutes les séances du jour dont l'heure de fin est dépassée
-    seances_to_close = SeanceCoure.objects.filter(
+    seances_to_close = SeanceCours.objects.filter(
         date_seance=today, heure_fin__lte=current_time, status="en_cours"
     )
 
@@ -112,7 +112,7 @@ from celery import shared_task
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
 from django.utils import timezone
-from presence_manager.models import SeanceCoure
+from presence_manager.models import SeanceCours
 
 
 @shared_task
@@ -123,30 +123,37 @@ def send_seances_via_websocket():
     now = timezone.localtime()
     today = now.date()
 
-    seances_du_jour = SeanceCoure.objects.filter(
+    seances_du_jour = SeanceCours.objects.filter(
         date_seance=today, status="en_cours"
     ).order_by("heure_debut")
 
     # Préparer les données à envoyer
-    data = []
     for seance in seances_du_jour:
-        data.append(
+        classe = seance.horaire_cours.cours.classe
+        groupe = groupe_name(classe.id)
+
+        # 1. Créer la structure de données pour cette SEANCE UNIQUE
+        seance_data_payload = [  # On garde une liste pour la cohérence avec le format attendu par le client
             {
                 "cours": seance.horaire_cours.cours.nom,
                 "heure_debut": seance.heure_debut.strftime("%H:%M"),
                 "heure_fin": seance.heure_fin.strftime("%H:%M"),
             }
-        )
+        ]
 
-    # Récupérer le layer de channels
-    channel_layer = get_channel_layer()
-    async_to_sync(channel_layer.group_send)(
-        "seances_du_jour",
-        {
-            "type": "send_seances",
-            "message": {
-                "date": str(today),
-                "seances": data,
+        # 2. Envoyer immédiatement au groupe concerné
+        channel_layer = get_channel_layer()
+
+        async_to_sync(channel_layer.group_send)(
+            groupe,
+            {
+                "type": "send_seances",
+                "message": {
+                    "date": str(today),
+                    "seances": seance_data_payload,  # <-- N'envoie qu'une seule séance
+                },
             },
-        },
-    )
+        )
+        print(
+            f"[TASK] Envoi de la séance via WebSocket au groupe {groupe} : {seance_data_payload}"
+        )

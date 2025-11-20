@@ -25,3 +25,7 @@ STATUT_CHOIX = [
     ("termine", "Terminé"),  # Stocké: 'termine', Affiché: 'Terminé'
     ("arrete", "Arrêté"),  # Stocké: 'arrete', Affiché: 'Arrêté')
 ]
+
+
+def groupe_name(id_class) -> str:
+    return f"classe_{id_class}"
