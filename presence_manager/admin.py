@@ -33,6 +33,7 @@ class CoursAdmin(admin.ModelAdmin):
     list_display = (
         "nom",
         "description",
+        "classe",
         "volume_horaire",
         "status",
         "id_professeur",

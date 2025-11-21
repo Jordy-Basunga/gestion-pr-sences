@@ -1,0 +1,13 @@
+2025-11-21 10:52:05,484 - INFO - Génération des séances pour le jour 2025-11-21 (weekday=4)
+2025-11-21 10:52:05,484 - INFO - Horaires récupérés depuis le cache (1 horaires).
+2025-11-21 10:52:20,485 - INFO - Génération des séances pour le jour 2025-11-21 (weekday=4)
+2025-11-21 10:52:20,486 - INFO - Horaires récupérés depuis le cache (1 horaires).
+2025-11-21 10:54:31,721 - INFO - Génération des séances pour le jour 2025-11-21 (weekday=4)
+2025-11-21 10:54:31,737 - INFO - Horaires récupérés depuis le cache (1 horaires).
+2025-11-21 10:54:31,831 - INFO - Génération des séances pour le jour 2025-11-21 (weekday=4)
+2025-11-21 10:54:31,851 - INFO - Horaires récupérés depuis le cache (1 horaires).
+2025-11-21 10:59:55,487 - INFO - Génération des séances pour le jour 2025-11-21 (weekday=4)
+2025-11-21 10:59:55,496 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-11-21 10:59:55,628 - INFO - Horaires mis en cache (2 horaires).
+2025-11-21 10:59:55,699 - INFO - Séance créée : GENIE LOGICIEL pour la classe 1 (10:55 - 11:00)
+2025-11-21 10:59:55,871 - INFO - Séance créée : BDD pour la classe 2 (10:55 - 11:00)
