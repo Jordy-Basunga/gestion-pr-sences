@@ -1,6 +1,75 @@
 from django.db import models
 from uuid import uuid4
 from presence_manager.utils import STATUT_CHOIX
+from django.db import models
+from django.db import models
+from django.contrib.auth.models import (
+    AbstractBaseUser,
+    BaseUserManager,
+    PermissionsMixin,
+)
+
+
+class UserManager(BaseUserManager):
+    def create_user(self, email, password=None, role=None, **extra_fields):
+        if not email:
+            raise ValueError("Email is required")
+
+        email = self.normalize_email(email)
+        user = self.model(email=email, role=role, **extra_fields)
+        user.set_password(password)
+        user.save(using=self._db)
+        return user
+
+    def create_superuser(self, email, password=None, **extra_fields):
+        extra_fields.setdefault("is_staff", True)
+        extra_fields.setdefault("is_superuser", True)
+        extra_fields.setdefault("is_active", True)
+
+        return self.create_user(email, password, role="admin", **extra_fields)
+
+
+class Utilisateur(AbstractBaseUser, PermissionsMixin):
+    ROLE_CHOICES = (
+        ("student", "Student"),
+        ("professor", "Professor"),
+        ("section", "section"),
+    )
+
+    email = models.EmailField(unique=True, db_index=True)
+    nom = models.CharField(max_length=150)
+    postnom = models.CharField(max_length=150)
+    role = models.CharField(max_length=30, choices=ROLE_CHOICES)
+
+    # Permissions Django require these fields:
+    is_active = models.BooleanField(default=True)
+    is_staff = models.BooleanField(default=False)
+
+    objects = UserManager()
+
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = []  # only email is required
+
+    def __str__(self):
+        return f"{self.email} ({self.role})"
+
+
+class Professeur(models.Model):
+    utilisateur = models.OneToOneField(
+        Utilisateur, on_delete=models.CASCADE, related_name="professor_profile"
+    )
+
+
+class SectionAdmin(models.Model):
+    utilisateur = models.OneToOneField(
+        Utilisateur, on_delete=models.CASCADE, related_name="section_profile"
+    )
+    niveau_acces = models.CharField(max_length=100)
+
+    class Meta:
+        db_table = "section"
+        verbose_name = "section"
+        verbose_name_plural = "sections"
 
 
 # Create your models here.
@@ -28,6 +97,19 @@ class Classe(models.Model):
         verbose_name_plural = "Classes"
 
 
+class Etudiant(models.Model):
+    utilisateur = models.OneToOneField(
+        Utilisateur, on_delete=models.CASCADE, related_name="student_profile"
+    )
+    matricule = models.CharField(max_length=20, unique=True, db_index=True)
+    classe = models.ForeignKey(
+        Classe,
+        on_delete=models.SET_NULL,  # recommandation !
+        null=True,
+        related_name="etudiants",  # accès rapide : classe.etudiants.all()
+    )
+
+
 class Cours(models.Model):
     """
     Représente un cours avec ses détails tels que le nom, la description, le volume horaire, le statut,
@@ -44,7 +126,9 @@ class Cours(models.Model):
     classe = models.ForeignKey(
         Classe, on_delete=models.CASCADE, default=0, blank=True, null=True
     )
-    id_professeur = models.IntegerField()
+    professor = models.ForeignKey(
+        Professeur, on_delete=models.CASCADE, null=True, related_name="courses"
+    )
 
     def __str__(self):
         return self.nom
@@ -113,7 +197,7 @@ class Presence(models.Model):
     """
 
     seance_cours = models.ForeignKey(SeanceCours, on_delete=models.CASCADE)
-    id_etudiant = models.IntegerField()
+    etudiant = models.ForeignKey(Etudiant, on_delete=models.CASCADE)
     present = models.BooleanField(default=False)
 
     def __str__(self):

@@ -55,3 +55,37 @@ class SeancesConsumer(AsyncJsonWebsocketConsumer):
             return Classe.objects.get(code_terminal=terminal_uuid)
         except Classe.DoesNotExist:
             return None
+
+
+import json
+from channels.generic.websocket import AsyncJsonWebsocketConsumer
+
+
+class SubmitePresence(AsyncJsonWebsocketConsumer):
+    async def connect(self):
+        await self.accept()
+        await self.send_json({"message": "WebSocket connecté avec succès."})
+
+    async def receive_json(self, content, **kwargs):
+        """
+        content = JSON reçu depuis le client
+        Exemple: {"username": "jordy", "age": 24}
+        """
+
+        # Traitement des données reçues si besoin
+        username = content.get("username")
+        age = content.get("age")
+
+        print("JSON reçu :", content)
+
+        # Réponse envoyée au client
+        await self.send_json(
+            {
+                "status": "success",
+                "message": "Données reçues avec succès.",
+                "data_recue": {"username": username, "age": age},
+            }
+        )
+
+    async def disconnect(self, close_code):
+        print("Déconnexion WebSocket:", close_code)

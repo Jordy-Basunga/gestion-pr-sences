@@ -75,9 +75,9 @@ def generer_seances_du_jour():
     logger.info(f"Génération des séances pour le jour {today} (weekday={weekday})")
 
     # Ne rien faire le week-end
-    if weekday in [5, 6]:
-        logger.info("Weekend détecté → pas de génération de séances.")
-        return
+    # if weekday in [5, 6]:
+    #     logger.info("Weekend détecté → pas de génération de séances.")
+    #     return
 
     # Clé cache Redis
     cache_key = f"horaires_{today}"
@@ -103,7 +103,7 @@ def generer_seances_du_jour():
             for h in horaires_qs
         ]
         # Stocker en cache 5 minutes (300s)
-        cache.set(cache_key, horaires_du_jour, timeout=300)
+        cache.set(cache_key, horaires_du_jour, timeout=1)
         logger.info(f"Horaires mis en cache ({len(horaires_du_jour)} horaires).")
     else:
         logger.info(

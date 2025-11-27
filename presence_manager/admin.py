@@ -36,11 +36,10 @@ class CoursAdmin(admin.ModelAdmin):
         "classe",
         "volume_horaire",
         "status",
-        "id_professeur",
         "created_at",
     )
     search_fields = ("nom", "description", "status")
-    list_filter = ("status", "id_professeur")
+    list_filter = ("status",)
     ordering = ("-created_at",)
 
 
@@ -77,10 +76,10 @@ class SeanceCoursAdmin(admin.ModelAdmin):
 # ============================
 @admin.register(Presence)
 class PresenceAdmin(admin.ModelAdmin):
-    list_display = ("seance_cours", "id_etudiant", "present")
-    search_fields = ("id_etudiant", "seance_cours__horaire_cours__cours__nom")
+    list_display = ("seance_cours", "etudiant", "present")
+    search_fields = ("etudiant", "seance_cours__horaire_cours__cours__nom")
     list_filter = ("present",)
-    ordering = ("seance_cours", "id_etudiant")
+    ordering = ("seance_cours",)
 
 
 # ============================
