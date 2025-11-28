@@ -6,6 +6,8 @@ import json
 from channels.generic.websocket import AsyncJsonWebsocketConsumer
 from asgiref.sync import sync_to_async
 
+from django.core.exceptions import ObjectDoesNotExist
+
 
 class SeancesConsumer(AsyncJsonWebsocketConsumer):
     """
@@ -46,6 +48,8 @@ class SeancesConsumer(AsyncJsonWebsocketConsumer):
         await self.send_json(event["message"])
 
     def _get_classe(self, terminal_uuid):
+        from presence_manager.models import Classe
+
         """
         la fonction perme
         """
@@ -67,14 +71,36 @@ class SubmitePresence(AsyncJsonWebsocketConsumer):
         await self.send_json({"message": "WebSocket connecté avec succès."})
 
     async def receive_json(self, content, **kwargs):
+        from presence_manager.models import Etudiant, SeanceCours
+
         """
         content = JSON reçu depuis le client
         Exemple: {"username": "jordy", "age": 24}
         """
 
         # Traitement des données reçues si besoin
-        username = content.get("username")
-        age = content.get("age")
+        #     matricule = payload.get("matricule")
+        email = content.get("email")
+        classe_nom = content.get("classe")
+        cours_nom = content.get("cours")
+        matricule = content.get("matricule")
+        # ============================
+        # 1. Vérification étudiant
+        # ============================
+
+        try:
+            etudiant = await sync_to_async(
+                Etudiant.objects.select_related("classe").get
+            )(matricule=matricule)
+        except ObjectDoesNotExist:
+            return {"valid": False, "errors": {"matricule": "Étudiant introuvable."}}
+
+        # Vérifier cohérence email
+        if etudiant.utilisateur.email != email:
+            return {
+                "valid": False,
+                "errors": {"email": "Email ne correspond pas à cet étudiant."},
+            }
 
         print("JSON reçu :", content)
 
@@ -82,8 +108,8 @@ class SubmitePresence(AsyncJsonWebsocketConsumer):
         await self.send_json(
             {
                 "status": "success",
-                "message": "Données reçues avec succès.",
-                "data_recue": {"username": username, "age": age},
+                "message": "Donnees reçues avec succes.",
+                "data_recue": {"username": email, "age": matricule},
             }
         )
 

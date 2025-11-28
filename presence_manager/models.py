@@ -202,7 +202,7 @@ class Presence(models.Model):
 
     def __str__(self):
         status = "Présent" if self.present else "Absent"
-        return f"Étudiant {self.id_etudiant} - {status} pour la séance du {self.seance_coure.date_seance}"
+        return f"Étudiant {self.etudiant.id} - {status} pour la séance du {self.seance_cours.date_seance}"
 
     class Meta:
         db_table = "presence"

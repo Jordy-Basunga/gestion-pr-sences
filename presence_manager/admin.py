@@ -5,6 +5,8 @@ from presence_manager.models import (
     Presence,
     Classe,
     SeanceCours,
+    Etudiant,
+    Professeur,
 )
 
 
@@ -80,6 +82,20 @@ class PresenceAdmin(admin.ModelAdmin):
     search_fields = ("etudiant", "seance_cours__horaire_cours__cours__nom")
     list_filter = ("present",)
     ordering = ("seance_cours",)
+
+
+@admin.register(Etudiant)
+class EtudiantAdmin(admin.ModelAdmin):
+    list_display = ("matricule", "classe")
+
+    list_filter = ("classe",)
+
+    ordering = ("matricule",)
+
+
+@admin.register(Professeur)
+class ProfesseurAdmin(admin.ModelAdmin):
+    list_display = ("utilisateur",)
 
 
 # ============================
