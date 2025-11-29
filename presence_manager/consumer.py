@@ -115,3 +115,63 @@ class SubmitePresence(AsyncJsonWebsocketConsumer):
 
     async def disconnect(self, close_code):
         print("Déconnexion WebSocket:", close_code)
+
+
+#
+
+
+class PresenceConsumer(AsyncJsonWebsocketConsumer):
+    import json
+    from channels.generic.websocket import AsyncJsonWebsocketConsumer
+    from channels.db import database_sync_to_async
+
+    from channels.generic.websocket import AsyncJsonWebsocketConsumer
+    from channels.db import database_sync_to_async
+
+    async def connect(self):
+        self.seance_id = self.scope["url_route"]["kwargs"]["seance_id"]
+        self.group_name = f"presence_seance_{self.seance_id}"
+
+        # Join group
+        await self.channel_layer.group_add(self.group_name, self.channel_name)
+        await self.accept()
+
+        # 1️⃣ Charger la liste existante
+        await self.load_existing_presences()
+
+        # Message de confirmation
+        await self.send_json({"message": f"Connecte a la seance {self.seance_id}"})
+
+    async def disconnect(self, code):
+        await self.channel_layer.group_discard(self.group_name, self.channel_name)
+
+    async def presence_update(self, event):
+        """
+        Reçoit les nouvelles présences en temps réel.
+        """
+        await self.send_json({"type": "new_presence", "presence": event["data"]})
+
+    async def load_existing_presences(self):
+        """
+        Envoie toutes les présences déjà enregistrées pour cette séance.
+        """
+        presences = await self.get_presences_from_db()
+        await self.send_json({"type": "existing_presences", "presences": presences})
+
+    @database_sync_to_async
+    def get_presences_from_db(self):
+        from presence_manager.models import Presence
+
+        try:
+            queryset = Presence.objects.filter(seance_cours_id=self.seance_id).values(
+                "id",
+                "etudiant__matricule",
+                "etudiant__utilisateur__nom",
+                "etudiant__utilisateur__postnom",
+                "present",
+            )
+            return list(queryset)
+
+        except Exception as e:
+            print("❌ ERREUR RÉCUP PRESENCES :", e)
+            return []
