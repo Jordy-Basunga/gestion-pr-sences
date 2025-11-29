@@ -208,3 +208,48 @@ class Presence(models.Model):
         db_table = "presence"
         verbose_name = "Présence"
         verbose_name_plural = "Présences"
+
+
+import uuid
+from django.db import models
+from django.utils import timezone
+from datetime import timedelta
+
+from .models import Etudiant
+
+
+class QRCode(models.Model):
+    etudiant = models.ForeignKey(
+        Etudiant, on_delete=models.SET_DEFAULT, default="ukw", related_name="qrcodes"
+    )
+    token = models.UUIDField(default=uuid.uuid4, unique=True, editable=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    expires_at = models.DateTimeField()
+    used = models.BooleanField(default=False)  # pour marquer s'il a été scanné/utilisé
+    is_active = models.BooleanField(default=True)
+
+    class Meta:
+        ordering = ("-created_at",)
+        indexes = [
+            models.Index(fields=["token"]),
+            models.Index(fields=["expires_at"]),
+        ]
+
+    def save(self, *args, **kwargs):
+        # Définir la date d'expiration par défaut si non fournie
+        if not self.expires_at:
+            self.expires_at = timezone.now() + timedelta(days=365)  # par défaut 2h
+        super().save(*args, **kwargs)
+
+    @property
+    def is_valid(self):
+        """Vérifie si le QR code est encore valide."""
+        return not self.used and timezone.now() < self.expires_at
+
+    def mark_used(self):
+        """Marque le QR comme utilisé."""
+        self.used = True
+        self.save()
+
+    def __str__(self):
+        return f"{self.etudiant.matricule} - QR {self.token} ({'valide' if self.is_valid else 'expiré'})"

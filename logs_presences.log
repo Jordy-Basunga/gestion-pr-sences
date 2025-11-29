@@ -7,3 +7,5 @@
 2025-11-29 06:52:01,080 - ERROR - Erreur WebSocket envoi: 'Cours' object has no attribute 't'
 2025-11-29 07:03:15,278 - INFO - Présence enregistrée: etudiant=654321, classe=1, cours=1, seance=2
 2025-11-29 07:44:16,550 - INFO - Présence enregistrée: etudiant=987654, classe=1, cours=1, seance=2
+2025-11-29 08:26:06,595 - INFO - Présence enregistrée: etudiant=ETU0001, classe=1, cours=1, seance=2
+2025-11-29 09:01:46,244 - INFO - Présence déjà enregistrée pour étudiant ETU0001 à la séance 2

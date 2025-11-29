@@ -1,9 +1,12 @@
 import logging
+from django.http import Http404, HttpResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
 from django.utils.timezone import now
 from django.db import DatabaseError
+
+from src.utils import encrypt_data
 
 from .serializer import PresenceSubmitSerializer
 from .models import Etudiant, Classe, Cours, Presence, SeanceCours
@@ -216,3 +219,118 @@ def get_presences_seance(request, seance_id):
     ]
 
     return Response({"presences": data}, status=200)
+
+
+# ......................................................................................................................
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework import status
+from .serializer import UserCreateSerializer
+
+
+@api_view(["POST"])
+def create_user(request):
+    serializer = UserCreateSerializer(data=request.data)
+    if serializer.is_valid():
+        user = serializer.save()
+        return Response(
+            {"message": "Utilisateur créé avec succès", "id": user.id},
+            status=status.HTTP_201_CREATED,
+        )
+
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+# ---------------------------------------------------------------------
+# vu de generation QR code
+from datetime import timedelta
+from django.utils import timezone
+import qrcode
+import base64
+from io import BytesIO
+from .models import QRCode
+
+
+@api_view(["POST"])
+def generate_qr(request):
+    matricule = request.data.get("matricule")
+    try:
+        etudiant = Etudiant.objects.get(matricule=matricule)
+    except Etudiant.DoesNotExist:
+        return Response(
+            {"error": "Étudiant introuvable."}, status=status.HTTP_404_NOT_FOUND
+        )
+
+    # Création QR
+    qr_obj = QRCode.objects.create(
+        etudiant=etudiant, expires_at=timezone.now() + timedelta(hours=2)
+    )
+
+    # Génération image QR
+    qr_data = str(qr_obj.token)
+    qr_img = qrcode.make(qr_data)
+    buffer = BytesIO()
+    qr_img.save(buffer, format="PNG")
+    qr_base64 = base64.b64encode(buffer.getvalue()).decode()
+
+    return Response(
+        {
+            "qr_token": qr_obj.token,
+            "qr_code_base64": qr_base64,
+            "expires_at": qr_obj.expires_at,
+        }
+    )
+
+
+from django.http import HttpResponse, Http404
+from django.utils import timezone
+import qrcode
+from io import BytesIO
+
+from rest_framework.decorators import api_view
+
+from .models import Etudiant, QRCode
+
+
+@api_view(["GET"])
+def download_qr(request, matricule):
+    """
+    Télécharger le QR Code existant d'un étudiant.
+    Si aucun QR valide n'existe, en créer un nouveau.
+    """
+
+    try:
+        etudiant = Etudiant.objects.get(matricule=matricule)
+        data = {
+            "matricule": etudiant.matricule,
+            "nom": etudiant.utilisateur.nom,
+            "postnom": etudiant.utilisateur.postnom,
+            "classe": etudiant.classe.id,
+        }
+
+    except Etudiant.DoesNotExist:
+        raise Http404("Étudiant introuvable")
+
+    # Vérifier s'il existe un QR valide
+    try:
+        qr_obj = QRCode.objects.get(etudiant=etudiant, is_active=True)
+    except QRCode.DoesNotExist:
+        return Response(
+            {"error": "Aucun QR Code valide trouvé. Veuillez en générer un nouveau."},
+            status=status.HTTP_404_NOT_FOUND,
+        )
+
+    # Générer l'image QR
+    encrypted_data = encrypt_data(str(data))
+    qr_data = encrypted_data
+    qr_img = qrcode.make(qr_data)
+    buffer = BytesIO()
+    qr_img.save(buffer, format="PNG")
+    buffer.seek(0)
+
+    # Réponse HTTP pour téléchargement
+    response = HttpResponse(buffer, content_type="image/png")
+    response["Content-Disposition"] = (
+        f"attachment; filename=QR_{etudiant.matricule}.png"
+    )
+    return response
