@@ -139,6 +139,36 @@ class Cours(models.Model):
         verbose_name_plural = "Cours"
 
 
+
+class Cours(models.Model):
+    """
+    Représente un cours avec ses détails tels que le nom, la description, le volume horaire, le statut,
+    les timestamps de création et de mise à jour, et l'identifiant du professeur associé.
+    elle permet de definir un cours qui aura des horaires specifiques
+    """
+
+    nom = models.CharField(max_length=100)
+    description = models.TextField()
+    volume_horaire = models.IntegerField()
+    status = models.CharField(max_length=50)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    classe = models.ForeignKey(
+        Classe, on_delete=models.CASCADE, default=0, blank=True, null=True
+    )
+    professor = models.ForeignKey(
+        Professeur, on_delete=models.CASCADE, null=True, related_name="courses"
+    )
+
+    def __str__(self):
+        return self.nom
+
+    class Meta:
+        db_table = "cours"
+        verbose_name = "Cours"
+        verbose_name_plural = "Cours"
+
+
 class HoraireCours(models.Model):
     """
     Représente l'horaire d'un cours spécifique, incluant le jour de la semaine et les heures de début et de fin.
@@ -199,6 +229,8 @@ class Presence(models.Model):
     seance_cours = models.ForeignKey(SeanceCours, on_delete=models.CASCADE)
     etudiant = models.ForeignKey(Etudiant, on_delete=models.CASCADE)
     present = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         status = "Présent" if self.present else "Absent"

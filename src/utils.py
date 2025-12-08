@@ -1,20 +1,36 @@
+import json
+import os
 from cryptography.fernet import Fernet
-
-# 1. Générer une clé unique et sécurisée (À stocker en sécurité !)
-Encryptedkey = Fernet.generate_key()
-cipher_suite = Fernet(Encryptedkey)
+from dotenv import load_dotenv
 
 
-def encrypt_data(data: str) -> str:
+# Charger la clé de chiffrement depuis une variable d'environnement
+load_dotenv()
+
+FERNET_KEY = os.getenv("FERNET_KEY")
+cipher_suite = Fernet(FERNET_KEY)
+
+
+
+def encrypt_data(data) -> str:
     """Chiffre les données fournies."""
+    # Si c’est un dict → convertir en JSON
+    if isinstance(data, dict):
+        data = json.dumps(data)
+    
+    # Si ce n’est pas une string → erreur
+    if not isinstance(data, str):
+        raise ValueError("Les données doivent être une string JSON ou un dict.")
+
     encrypted_data = cipher_suite.encrypt(data.encode())
     return encrypted_data.decode()
 
 
-def decrypt_data(encrypted_data: str) -> str:
+def decrypt_data(encrypted_data) -> str:
     """Déchiffre les données fournies."""
     decrypted_data = cipher_suite.decrypt(encrypted_data.encode())
-    return decrypted_data.decode()
+    data = decrypted_data.decode()
+    return data
 
 
 #

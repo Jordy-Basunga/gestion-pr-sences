@@ -84,6 +84,8 @@ class PresenceAdmin(admin.ModelAdmin):
         "etudiant_nom_complet",
         "etudiant_classe",
         "present",
+        "created_at",
+        "updated_at",
     )
 
     list_filter = (
@@ -201,3 +203,39 @@ admin.site.site_title = "Gestion des Présences - Administration"
 admin.site.index_title = (
     "Bienvenue sur le portail d'administration de la gestion des présences"
 )
+
+
+
+
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
+from .models import Utilisateur
+from django.utils.translation import gettext_lazy as _
+
+@admin.register(Utilisateur)
+class UtilisateurAdmin(BaseUserAdmin):
+    # Les champs affichés dans la liste des utilisateurs
+    list_display = ('email', 'nom', 'postnom', 'role', 'is_staff', 'is_active')
+    list_filter = ('role', 'is_staff', 'is_active')
+
+    # Champs utilisés pour la recherche
+    search_fields = ('email', 'nom', 'postnom')
+    ordering = ('email',)
+
+    # Configuration du formulaire d'édition
+    fieldsets = (
+        (None, {'fields': ('email', 'password')}),
+        (_('Personal info'), {'fields': ('nom', 'postnom', 'role')}),
+        (_('Permissions'), {'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions')}),
+        (_('Important dates'), {'fields': ('last_login',)}),
+    )
+
+    # Formulaire pour créer un nouvel utilisateur depuis l'admin
+    add_fieldsets = (
+        (None, {
+            'classes': ('wide',),
+            'fields': ('email', 'nom', 'postnom', 'role', 'password1', 'password2', 'is_active', 'is_staff'),
+        }),
+    )
+
+    filter_horizontal = ('groups', 'user_permissions',)

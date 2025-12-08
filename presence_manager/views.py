@@ -1,3 +1,4 @@
+import json
 import logging
 from django.http import Http404, HttpResponse
 from rest_framework.decorators import api_view
@@ -6,7 +7,7 @@ from rest_framework import status
 from django.utils.timezone import now
 from django.db import DatabaseError
 
-from src.utils import encrypt_data
+from src.utils import decrypt_data, encrypt_data
 
 from .serializer import PresenceSubmitSerializer
 from .models import Etudiant, Classe, Cours, Presence, SeanceCours
@@ -53,29 +54,89 @@ def get_object_or_error(model, **filters):
 
 @api_view(["POST"])
 def submit_presence(request):
-    # 1️⃣ Validation serializer
-    serializer = PresenceSubmitSerializer(data=request.data)
-    if not serializer.is_valid():
-        logger.warning(f"Payload invalide: {serializer.errors}")
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    """ 
+    Fonction principale pour soumettre une présence étudiante.
+    Elle recueille les données, valide, vérifie et enregistre la présence.
+    via le code Qr il recoit les donnees encryptees du QR code , les decrypte et les utilise pour enregistrer la presence.
+    
+    """
+    # decryptage des donnes recues
 
-    data = serializer.validated_data
-    matricule = data["matricule"]
-    email = data["email"]
-    classe_id = data["classe"]
-    cours_id = data["cours"]
+
+
+
+    # 1️⃣ Validation serializer
+    # ici on valide les donnes recues du QR code decryptees
+    # serializer = PresenceSubmitSerializer(data=request.data)
+    # if not serializer.is_valid():
+    #     logger.warning(f"Payload invalide: {serializer.errors}")
+    #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    cours_id = request.data.get("cours_id")
+    print("cours_id:", cours_id)
+     # on verifie si le cours existe
+    try:
+        cours = Cours.objects.get(id=cours_id)
+    except Cours.DoesNotExist:
+        logger.warning(f"Cours introuvable: id={cours_id}")
+        return Response(
+            {"error": "Cours introuvable."},
+            status=status.HTTP_404_NOT_FOUND,
+        )
+    crypt_data = request.data.get("crypted_data")
+    print("crypt_data:", crypt_data)
+    try:
+        decrypted_str = decrypt_data(crypt_data)
+        print("decrypted_str:", decrypted_str)
+        # Convertir la chaîne décryptée en dictionnaire
+        
+    except Exception as e:
+        logger.error(f"Erreur de décryptage des données: {e}")
+        return Response(
+            {"error": "Données invalides ou corrompues."},
+            status=status.HTTP_400_BAD_REQUEST,
+        )
+
+
+    # ici on extrait les donnes valides
+    #  on les utilise pour la suite des operations
+    
+    # decrypted_str = "{'matricule': '987654', 'nom': 'denis', 'postnom': 'denis', 'classe': 1}"
+    json_str = decrypted_str.replace("'", '"')  # remplacer les guillemets simples par doubles
+    data = json.loads(json_str)
+    print(data)
+    print(type(data))
+
+
+
+    
+    matricule = data.get("matricule")
+    
 
     # 2️⃣ Vérifier étudiant
-    etudiant, error = get_object_or_error(Etudiant, matricule=matricule)
-    if error:
-        return error
-
+    # on verifie si l'etudiant existe
+    try: 
+        etudiant = Etudiant.objects.get(matricule=matricule)
+    except Etudiant.DoesNotExist:
+        logger.warning(f"Étudiant introuvable: matricule={matricule}")
+        return Response(
+            {"error": "Étudiant introuvable avec les informations fournies."},
+            status=status.HTTP_404_NOT_FOUND,
+        )
+   
+    
     # 3️⃣ Vérifier classe
-    classe, error = get_object_or_error(Classe, id=classe_id)
-    if error:
-        return error
-
+    # on verifie si la classe existe
+    try:
+        classe = Classe.objects.get(id=etudiant.classe_id)
+    except Classe.DoesNotExist:
+        logger.warning(f"Classe introuvable: id={etudiant.classe_id}")
+        return Response(
+            {"error": "Classe introuvable."},
+            status=status.HTTP_404_NOT_FOUND,
+        )
+   
     # 4️⃣ Vérifier appartenance
+    # on verifie si l'etudiant appartient a la classe pour laquelle il veut enregistrer sa presence
     if not classe.etudiants.filter(id=etudiant.id).exists():
         logger.warning(f"Étudiant {matricule} n'appartient pas à la classe {classe.id}")
         return Response(
@@ -84,16 +145,31 @@ def submit_presence(request):
         )
 
     # 5️⃣ Vérifier cours dans cette classe
-    cours, error = get_object_or_error(Cours, id=cours_id, classe=classe)
-    if error:
-        return error
+    # on verifie si le cours appartient  a cette classe
+    try:
+        cours = Cours.objects.get(id=cours_id, classe=classe)
+    except Cours.DoesNotExist:
+        logger.warning(f"Cours introuvable: id={cours_id} pour classe={classe.id}")
+        return Response(
+            {"error": "Cours introuvable pour cette classe."},
+            status=status.HTTP_404_NOT_FOUND,
+        )
+    
 
     # 6️⃣ Vérifier séance en cours
+    # on verifie s'il y a une seance en cours pour ce cours dans cette classe
     today = now().date()
     try:
         seance = SeanceCours.objects.filter(
             horaire_cours__cours=cours, date_seance=today, status="en_cours"
         ).first()
+        print(seance)
+    except SeanceCours.DoesNotExist:
+        logger.error(f"Aucune séance en cours pour cours {cours.id} - classe {classe.id}")
+        return Response(
+            {"error": "Aucune séance en cours pour ce cours."},
+            status=status.HTTP_400_BAD_REQUEST,
+        )
     except DatabaseError as e:
         logger.error(f"Erreur DB lors de la vérification des séances : {e}")
         return Response(
@@ -101,16 +177,9 @@ def submit_presence(request):
             status=status.HTTP_500_INTERNAL_SERVER_ERROR,
         )
 
-    if not seance:
-        logger.info(
-            f"Aucune séance en cours pour cours {cours.id} - classe {classe.id}"
-        )
-        return Response(
-            {"error": "Aucune séance en cours pour ce cours."},
-            status=status.HTTP_400_BAD_REQUEST,
-        )
-
+   
     # 7️⃣ Vérifier doublon présence
+    # on verifie si la presence n'a pas deja ete enregistree pour cet etudiant a cette seance
     if Presence.objects.filter(
         seance_cours=seance, etudiant=etudiant, present=True
     ).exists():
@@ -123,6 +192,7 @@ def submit_presence(request):
         )
 
     # 8️⃣ Enregistrer présence
+    # on enregistre la presence dans la liste des presences
     try:
         presence = Presence.objects.create(
             seance_cours=seance,
@@ -142,6 +212,7 @@ def submit_presence(request):
     )
 
     # --- Envoi WebSocket ---
+    # on envoie une notification en temps reel via websocket pour mise a jour de l'interface
     try:
         channel_layer = get_channel_layer()
         group_name = f"presence_seance_{seance.id}"
