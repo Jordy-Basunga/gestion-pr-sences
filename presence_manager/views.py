@@ -9,10 +9,11 @@ from django.db import DatabaseError
 
 from src.utils import decrypt_data, encrypt_data
 
-from .serializer import PresenceSubmitSerializer
+
 from .models import Etudiant, Classe, Cours, Presence, SeanceCours
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
+from rest_framework.permissions import AllowAny
 
 logger = logging.getLogger(__name__)  # Logger du module
 
@@ -53,6 +54,7 @@ def get_object_or_error(model, **filters):
 
 
 @api_view(["POST"])
+
 def submit_presence(request):
     """ 
     Fonction principale pour soumettre une présence étudiante.
@@ -292,27 +294,6 @@ def get_presences_seance(request, seance_id):
     return Response({"presences": data}, status=200)
 
 
-# ......................................................................................................................
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework import status
-from .serializer import UserCreateSerializer
-
-
-@api_view(["POST"])
-def create_user(request):
-    serializer = UserCreateSerializer(data=request.data)
-    if serializer.is_valid():
-        user = serializer.save()
-        return Response(
-            {"message": "Utilisateur créé avec succès", "id": user.id},
-            status=status.HTTP_201_CREATED,
-        )
-
-    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-# ---------------------------------------------------------------------
 # vu de generation QR code
 from datetime import timedelta
 from django.utils import timezone
@@ -405,3 +386,7 @@ def download_qr(request, matricule):
         f"attachment; filename=QR_{etudiant.matricule}.png"
     )
     return response
+
+
+
+

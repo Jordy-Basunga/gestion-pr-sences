@@ -5434,3 +5434,1894 @@ DETAIL:  Failing row contains (4, t, 1, null).
 2025-12-08 12:25:13,330 - INFO - Génération des séances pour le jour 2025-12-08 (weekday=0)
 2025-12-08 12:25:13,330 - INFO - Cache vide → récupération des horaires depuis la DB.
 2025-12-08 12:25:13,341 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:50:39,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:50:39,806 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:50:39,820 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:50:39,840 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:50:39,843 - INFO - Horaires récupérés depuis le cache (0 horaires).
+2025-12-09 07:50:39,878 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:50:39,881 - INFO - Horaires récupérés depuis le cache (0 horaires).
+2025-12-09 07:50:54,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:50:54,802 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:50:54,839 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:51:09,786 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:51:09,787 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:51:09,796 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:51:24,787 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:51:24,787 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:51:24,796 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:51:39,796 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:51:39,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:51:39,814 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:51:54,787 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:51:54,787 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:51:54,797 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:52:09,787 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:52:09,787 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:52:09,796 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:52:24,795 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:52:24,795 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:52:24,805 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:52:39,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:52:39,802 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:52:39,821 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:52:54,795 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:52:54,795 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:52:54,806 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:53:09,796 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:53:09,798 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:53:09,810 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:53:24,793 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:53:24,795 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:53:24,814 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:53:39,793 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:53:39,794 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:53:39,804 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:53:54,794 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:53:54,796 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:53:54,831 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:54:09,802 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:54:09,803 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:54:09,828 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:54:24,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:54:24,798 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:54:24,836 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:54:39,802 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:54:39,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:54:39,830 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:54:54,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:54:54,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:54:54,846 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:55:09,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:55:09,802 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:55:09,839 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 07:55:24,802 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:55:24,803 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:55:24,846 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:55:24,856 - INFO - Séance créée : ALGO pour la classe 1 (07:55 - 07:59)
+2025-12-09 07:55:39,800 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:55:39,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:55:39,843 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:55:54,794 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:55:54,796 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:55:54,817 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:56:09,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:56:09,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:56:09,809 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:56:24,799 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:56:24,799 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:56:24,810 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:56:39,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:56:39,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:56:39,848 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:56:54,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:56:54,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:56:54,808 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:57:09,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:57:09,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:57:09,852 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:57:24,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:57:24,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:57:24,845 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:57:39,796 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:57:39,798 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:57:39,842 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:57:54,794 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:57:54,795 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:57:54,838 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:58:09,796 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:58:09,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:58:09,834 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:58:24,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:58:24,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:58:24,829 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:58:39,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:58:39,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:58:39,849 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:58:54,796 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:58:54,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:58:54,835 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:59:09,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:59:09,802 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:59:09,829 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:59:24,798 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:59:24,799 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:59:24,812 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:59:39,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:59:39,798 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:59:39,831 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 07:59:54,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 07:59:54,798 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 07:59:54,839 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:00:09,805 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:00:09,806 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:00:09,846 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:00:24,805 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:00:24,807 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:00:24,848 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:00:39,805 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:00:39,807 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:00:39,846 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:00:54,805 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:00:54,807 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:00:54,852 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:01:09,806 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:01:09,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:01:09,843 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:01:24,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:01:24,802 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:01:24,824 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:01:39,799 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:01:39,800 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:01:39,810 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:01:54,798 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:01:54,799 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:01:54,838 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:02:09,798 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:02:09,800 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:02:09,844 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:02:24,806 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:02:24,807 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:02:24,858 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:02:39,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:02:39,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:02:39,809 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:02:54,799 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:02:54,800 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:02:54,846 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:03:09,806 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:03:09,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:03:09,852 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:03:09,861 - INFO - Séance créée : GENIE LOGICIEL pour la classe 1 (08:03 - 08:10)
+2025-12-09 08:03:24,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:03:24,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:03:24,846 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:03:39,799 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:03:39,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:03:39,851 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:03:54,799 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:03:54,800 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:03:54,851 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:04:09,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:04:09,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:04:09,834 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:04:24,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:04:24,809 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:04:24,859 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:04:39,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:04:39,809 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:04:39,847 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:04:54,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:04:54,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:04:54,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:05:09,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:05:09,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:05:09,814 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:05:24,800 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:05:24,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:05:24,850 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:05:39,800 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:05:39,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:05:39,844 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:05:54,806 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:05:54,807 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:05:54,846 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:06:09,808 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:06:09,809 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:06:09,857 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:06:24,808 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:06:24,810 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:06:24,865 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:06:39,808 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:06:39,809 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:06:39,856 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:06:54,808 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:06:54,810 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:06:54,852 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:07:09,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:07:09,810 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:07:09,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:07:24,802 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:07:24,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:07:24,839 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:07:39,796 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:07:39,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:07:39,815 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:07:54,800 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:07:54,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:07:54,843 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:08:09,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:08:09,810 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:08:09,854 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:08:24,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:08:24,811 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:08:24,838 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:08:39,810 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:08:39,811 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:08:39,847 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:08:54,802 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:08:54,803 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:08:54,859 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:09:09,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:09:09,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:09:09,835 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:09:24,799 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:09:24,800 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:09:24,819 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:09:39,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:09:39,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:09:39,841 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:09:54,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:09:54,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:09:54,817 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:10:09,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:10:09,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:10:09,812 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:10:24,810 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:10:24,811 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:10:24,849 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:10:39,806 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:10:39,806 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:10:39,820 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:10:54,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:10:54,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:10:54,852 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:11:09,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:11:09,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:11:09,854 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:11:24,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:11:24,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:11:24,854 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:11:39,797 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:11:39,797 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:11:39,810 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:11:54,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:11:54,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:11:54,855 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:12:09,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:12:09,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:12:09,860 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:12:24,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:12:24,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:12:24,863 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:12:39,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:12:39,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:12:39,859 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:12:54,798 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:12:54,798 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:12:54,810 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:13:09,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:13:09,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:13:09,831 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:13:24,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:13:24,806 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:13:24,861 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:13:39,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:13:39,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:13:39,860 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:13:54,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:13:54,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:13:54,870 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:14:09,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:14:09,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:14:09,864 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:14:24,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:14:24,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:14:24,832 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:14:39,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:14:39,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:14:39,859 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:14:54,806 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:14:54,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:14:54,840 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:15:09,799 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:15:09,799 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:15:09,811 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:15:24,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:15:24,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:15:24,866 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:15:39,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:15:39,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:15:39,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:15:54,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:15:54,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:15:54,865 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:16:09,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:16:09,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:16:09,837 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:16:24,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:16:24,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:16:24,865 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:16:39,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:16:39,809 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:16:39,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:16:54,800 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:16:54,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:16:54,813 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:17:09,801 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:17:09,801 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:17:09,813 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:17:24,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:17:24,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:17:24,869 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:17:39,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:17:39,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:17:39,827 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:17:54,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:17:54,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:17:54,866 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:18:09,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:18:09,817 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:18:09,866 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:18:24,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:18:24,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:18:24,841 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:18:39,803 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:18:39,803 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:18:39,823 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:18:54,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:18:54,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:18:54,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:19:09,805 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:19:09,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:19:09,836 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:19:24,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:19:24,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:19:24,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:19:39,816 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:19:39,817 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:19:39,863 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:19:54,816 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:19:54,817 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:19:54,867 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:20:09,816 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:20:09,818 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:20:09,859 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:20:24,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:20:24,810 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:20:24,863 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:20:39,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:20:39,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:20:39,822 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:20:54,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:20:54,810 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:20:54,836 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:21:09,817 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:21:09,818 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:21:09,874 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:21:24,817 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:21:24,819 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:21:24,876 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:21:39,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:21:39,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:21:39,838 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:21:54,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:21:54,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:21:54,840 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:22:09,817 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:22:09,819 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:22:09,864 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:22:24,804 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:22:24,804 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:22:24,817 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:22:39,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:22:39,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:22:39,834 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:22:54,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:22:54,811 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:22:54,861 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:23:09,805 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:23:09,805 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:23:09,819 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:23:24,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:23:24,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:23:24,853 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:23:39,816 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:23:39,817 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:23:39,848 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:23:54,818 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:23:54,819 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:23:54,859 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:24:09,818 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:24:09,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:24:09,872 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:24:24,805 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:24:24,806 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:24:24,819 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:24:39,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:24:39,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:24:39,856 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:24:54,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:24:54,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:24:54,862 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:25:09,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:25:09,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:25:09,829 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:25:24,819 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:25:24,821 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:25:24,868 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:25:39,818 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:25:39,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:25:39,865 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:25:54,819 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:25:54,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:25:54,867 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:26:09,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:26:09,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:26:09,862 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:26:24,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:26:24,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:26:24,869 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:26:39,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:26:39,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:26:39,860 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:26:54,818 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:26:54,819 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:26:54,874 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:27:09,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:27:09,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:27:09,856 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:27:24,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:27:24,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:27:24,827 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:27:39,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:27:39,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:27:39,827 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:27:54,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:27:54,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:27:54,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:28:09,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:28:09,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:28:09,830 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:28:24,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:28:24,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:28:24,854 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:28:39,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:28:39,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:28:39,862 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:28:54,821 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:28:54,822 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:28:54,874 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:29:09,820 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:29:09,822 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:29:09,862 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:29:24,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:29:24,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:29:24,829 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:29:39,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:29:39,811 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:29:39,844 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:29:54,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:29:54,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:29:54,860 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:30:09,807 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:30:09,808 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:30:09,820 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:30:24,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:30:24,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:30:24,872 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:30:39,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:30:39,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:30:39,861 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:30:54,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:30:54,815 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:30:54,858 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:31:09,808 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:31:09,809 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:31:09,823 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:31:24,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:31:24,809 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:31:24,827 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:31:39,822 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:31:39,824 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:31:39,865 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:31:54,822 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:31:54,823 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:31:54,875 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:32:09,821 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:32:09,823 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:32:09,863 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:32:24,822 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:32:24,823 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:32:24,878 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:32:39,823 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:32:39,824 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:32:39,869 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:32:54,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:32:54,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:32:54,867 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:33:09,814 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:33:09,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:33:09,857 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:33:24,809 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:33:24,810 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:33:24,822 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:33:39,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:33:39,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:33:39,855 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 08:33:54,817 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:33:54,817 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:33:54,829 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:34:09,823 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:34:09,824 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:34:09,864 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:34:09,870 - INFO - Séance créée : ALGO pour la classe 1 (08:34 - 08:36)
+2025-12-09 08:34:24,818 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:34:24,818 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:34:24,833 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:34:39,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:34:39,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:34:39,859 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:34:54,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:34:54,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:34:54,860 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:35:09,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:35:09,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:35:09,845 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:35:24,816 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:35:24,818 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:35:24,867 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:35:39,824 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:35:39,825 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:35:39,864 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:35:54,823 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:35:54,825 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:35:54,875 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:36:09,824 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:36:09,825 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:36:09,864 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:36:24,813 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:36:24,814 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:36:24,860 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:36:39,811 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:36:39,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:36:39,829 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:36:54,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:36:54,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:36:54,837 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:37:09,815 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:37:09,816 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:37:09,854 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:37:09,873 - INFO - Séance créée : GENIE LOGICIEL pour la classe 1 (08:37 - 08:39)
+2025-12-09 08:37:24,816 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:37:24,817 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:37:24,860 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:37:39,820 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:37:39,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:37:39,845 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:37:54,822 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:37:54,823 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:37:54,878 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:38:09,821 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:38:09,822 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:38:09,840 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:38:24,821 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:38:24,822 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:38:24,866 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:38:39,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:38:39,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:38:39,827 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:38:54,817 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:38:54,818 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:38:54,863 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:39:09,817 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:39:09,818 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:39:09,868 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:39:24,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:39:24,812 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:39:24,827 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:39:39,820 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:39:39,821 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:39:39,834 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:39:54,825 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:39:54,827 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:39:54,877 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:40:09,820 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:40:09,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:40:09,833 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 08:40:24,820 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:40:24,821 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:40:24,836 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 08:40:39,818 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:40:39,819 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:40:39,857 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 08:40:54,819 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:40:54,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:40:54,857 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:41:09,812 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:41:09,813 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:41:09,824 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:41:24,819 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:41:24,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:41:24,859 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:41:39,821 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:41:39,821 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:41:39,835 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:41:54,824 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:41:54,825 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:41:54,857 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:42:09,819 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:42:09,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:42:09,865 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 08:42:24,819 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 08:42:24,820 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 08:42:24,865 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:42:52,765 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:42:52,768 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:42:52,793 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:42:52,801 - INFO - Séance créée : GENIE LOGICIEL pour la classe 1 (09:41 - 09:43)
+2025-12-09 09:43:01,576 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:43:01,586 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:43:01,629 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:43:16,568 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:43:16,575 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:43:16,600 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:43:31,579 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:43:31,581 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:43:31,615 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:43:46,582 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:43:46,584 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:43:46,617 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:44:01,586 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:44:01,587 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:44:01,621 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:44:16,574 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:44:16,575 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:44:16,586 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:44:31,581 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:44:31,583 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:44:31,627 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:44:46,575 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:44:46,575 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:44:46,587 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:45:01,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:45:01,583 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:45:01,596 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:45:01,601 - INFO - Séance créée : GENIE LOGICIEL pour la classe 1 (09:45 - 09:47)
+2025-12-09 09:45:16,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:45:16,586 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:45:16,627 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:45:31,589 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:45:31,590 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:45:31,634 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:45:46,584 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:45:46,586 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:45:46,615 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:46:01,587 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:46:01,588 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:46:01,629 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:46:16,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:46:16,584 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:46:16,626 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:46:31,591 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:46:31,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:46:31,643 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:46:46,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:46:46,585 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:46:46,614 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:47:01,591 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:47:01,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:47:01,626 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:47:16,586 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:47:16,587 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:47:16,625 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:47:31,586 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:47:31,587 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:47:31,598 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:47:46,586 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:47:46,588 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:47:46,629 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:48:01,585 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:48:01,587 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:48:01,632 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:48:16,585 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:48:16,586 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:48:16,610 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:48:31,586 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:48:31,587 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:48:31,631 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:48:46,588 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:48:46,589 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:48:46,629 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:49:01,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:49:01,595 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:49:01,645 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:49:16,588 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:49:16,588 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:49:16,600 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:49:31,595 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:49:31,596 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:49:31,651 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:49:46,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:49:46,583 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:49:46,599 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:50:01,586 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:50:01,587 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:50:01,622 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:50:16,581 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:50:16,581 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:50:16,594 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:50:31,589 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:50:31,589 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:50:31,603 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:50:46,589 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:50:46,590 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:50:46,628 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:51:01,596 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:51:01,597 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:51:01,648 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:51:16,582 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:51:16,582 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:51:16,595 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:51:31,588 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:51:31,589 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:51:31,639 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:51:46,582 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:51:46,582 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:51:46,594 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:52:01,590 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:52:01,590 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:52:01,603 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:52:16,590 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:52:16,591 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:52:16,631 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:52:31,596 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:52:31,597 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:52:31,647 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:52:46,590 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:52:46,592 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:52:46,629 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:53:01,591 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:53:01,591 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:53:01,604 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:53:16,591 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:53:16,592 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:53:16,632 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:53:31,590 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:53:31,591 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:53:31,629 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:53:46,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:53:46,583 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:53:46,597 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:54:01,592 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:54:01,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:54:01,617 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:54:16,584 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:54:16,584 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:54:16,600 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:54:31,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:54:31,599 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:54:31,644 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:54:46,590 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:54:46,591 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:54:46,630 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 09:55:01,591 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:55:01,591 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:55:01,600 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 09:55:16,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:55:16,583 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:55:16,593 - INFO - Horaires mis en cache (0 horaires).
+2025-12-09 09:55:31,583 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:55:31,584 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:55:31,595 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:55:46,589 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:55:46,590 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:55:46,624 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:56:01,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:56:01,594 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:56:01,605 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:56:01,611 - INFO - Séance créée : GENIE LOGICIEL pour la classe 1 (09:56 - 10:20)
+2025-12-09 09:56:16,592 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:56:16,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:56:16,638 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:56:31,591 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:56:31,592 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:56:31,638 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:56:46,592 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:56:46,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:56:46,627 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:57:01,598 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:57:01,600 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:57:01,635 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:57:16,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:57:16,595 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:57:16,638 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:57:31,592 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:57:31,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:57:31,639 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:57:46,592 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:57:46,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:57:46,627 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:58:01,600 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:58:01,601 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:58:01,643 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:58:16,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:58:16,595 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:58:16,632 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:58:31,600 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:58:31,601 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:58:31,647 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:58:46,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:58:46,594 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:58:46,626 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:59:01,601 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:59:01,602 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:59:01,648 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:59:16,587 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:59:16,587 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:59:16,598 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:59:31,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:59:31,595 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:59:31,641 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 09:59:46,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 09:59:46,595 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 09:59:46,636 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:00:01,602 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:00:01,603 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:00:01,648 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:00:16,588 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:00:16,588 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:00:16,599 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:00:31,589 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:00:31,589 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:00:31,600 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:00:46,588 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:00:46,588 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:00:46,601 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:01:01,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:01:01,595 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:01:01,637 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:01:16,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:01:16,595 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:01:16,627 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:01:31,589 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:01:31,589 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:01:31,603 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:01:46,588 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:01:46,589 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:01:46,602 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:02:01,595 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:02:01,596 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:02:01,641 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:02:16,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:02:16,598 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:02:16,637 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:02:31,590 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:02:31,590 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:02:31,603 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:02:46,599 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:02:46,600 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:02:46,641 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:03:01,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:03:01,598 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:03:01,649 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:03:16,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:03:16,598 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:03:16,624 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:03:31,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:03:31,599 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:03:31,637 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:03:46,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:03:46,598 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:03:46,633 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:04:01,605 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:04:01,606 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:04:01,657 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:04:16,599 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:04:16,600 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:04:16,639 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:04:31,592 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:04:31,592 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:04:31,604 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:04:46,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:04:46,599 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:04:46,643 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:05:01,606 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:05:01,607 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:05:01,653 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:05:16,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:05:16,598 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:05:16,635 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:05:31,596 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:05:31,596 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:05:31,607 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:05:46,601 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:05:46,602 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:05:46,641 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:06:01,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:06:01,594 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:06:01,605 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:06:16,599 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:06:16,600 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:06:16,636 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:06:31,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:06:31,594 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:06:31,609 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:06:46,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:06:46,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:06:46,605 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:07:01,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:07:01,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:07:01,603 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:07:16,593 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:07:16,593 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:07:16,604 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:07:31,599 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:07:31,600 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:07:31,646 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:07:46,599 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:07:46,600 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:07:46,622 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:08:01,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:08:01,594 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:08:01,605 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:08:16,599 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:08:16,601 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:08:16,635 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:08:31,599 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:08:31,601 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:08:31,646 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:08:46,594 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:08:46,594 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:08:46,607 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:09:01,607 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:09:01,608 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:09:01,648 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:09:16,603 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:09:16,604 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:09:16,643 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:09:31,605 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:09:31,605 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:09:31,618 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:09:46,602 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:09:46,603 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:09:46,642 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:10:01,597 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:10:01,597 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:10:01,608 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:10:16,603 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:10:16,604 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:10:16,630 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:10:31,598 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:10:31,598 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:10:31,611 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:10:46,607 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:10:46,608 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:10:46,647 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:11:01,607 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:11:01,608 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:11:01,658 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:11:16,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:11:16,609 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:11:16,654 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:11:31,614 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:11:31,616 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:11:31,658 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:11:46,605 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:11:46,607 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:11:46,635 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:12:01,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:12:01,609 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:12:01,653 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:12:16,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:12:16,609 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:12:16,649 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:12:31,610 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:12:31,610 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:12:31,624 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:12:46,601 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:12:46,601 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:12:46,612 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:13:01,615 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:13:01,617 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:13:01,655 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:13:16,609 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:13:16,610 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:13:16,651 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:13:31,616 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:13:31,617 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:13:31,668 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:13:46,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:13:46,609 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:13:46,643 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:14:01,602 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:14:01,602 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:14:01,613 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:14:16,607 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:14:16,608 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:14:16,632 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:14:31,602 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:14:31,603 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:14:31,614 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:14:46,611 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:14:46,612 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:14:46,639 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:15:01,617 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:15:01,618 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:15:01,668 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:15:16,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:15:16,609 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:15:16,647 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:15:31,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:15:31,609 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:15:31,646 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:15:46,610 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:15:46,611 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:15:46,645 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:16:01,603 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:16:01,604 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:16:01,615 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:16:16,610 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:16:16,612 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:16:16,639 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:16:31,618 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:16:31,619 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:16:31,663 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:16:46,605 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:16:46,606 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:16:46,621 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:17:01,618 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:17:01,619 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:17:01,667 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:17:16,613 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:17:16,614 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:17:16,650 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:17:31,612 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:17:31,613 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:17:31,650 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:17:46,611 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:17:46,613 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:17:46,635 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:18:01,612 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:18:01,613 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:18:01,660 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:18:16,612 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:18:16,613 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:18:16,643 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:18:31,613 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:18:31,615 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:18:31,657 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:18:46,614 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:18:46,616 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:18:46,645 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:19:01,621 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:19:01,622 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:19:01,665 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:19:16,615 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:19:16,617 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:19:16,648 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:19:31,613 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:19:31,614 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:19:31,661 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:19:46,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:19:46,608 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:19:46,619 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:20:01,607 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:20:01,608 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:20:01,619 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:20:16,614 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:20:16,615 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:20:16,646 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:20:31,614 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:20:31,616 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:20:31,661 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:20:46,608 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:20:46,608 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:20:46,621 - INFO - Horaires mis en cache (1 horaires).
+2025-12-09 10:21:01,622 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:21:01,623 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:21:01,665 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:21:01,672 - INFO - Séance créée : ALGO pour la classe 1 (10:21 - 10:59)
+2025-12-09 10:21:16,616 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:21:16,618 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:21:16,658 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:21:31,609 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:21:31,610 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:21:31,622 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:21:46,610 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:21:46,611 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:21:46,625 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:22:01,615 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:22:01,617 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:22:01,673 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:22:16,609 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:22:16,609 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:22:16,621 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:22:31,618 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:22:31,619 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:22:31,639 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:22:46,616 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:22:46,618 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:22:46,655 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:23:01,623 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:23:01,624 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:23:01,675 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:23:16,618 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:23:16,619 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:23:16,659 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:23:31,616 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:23:31,618 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:23:31,668 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:23:46,612 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:23:46,613 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:23:46,626 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:24:01,616 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:24:01,618 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:24:01,665 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:24:16,615 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:24:16,616 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:24:16,642 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:24:31,625 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:24:31,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:24:31,678 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:24:46,619 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:24:46,621 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:24:46,664 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:25:01,626 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:25:01,627 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:25:01,673 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:25:16,619 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:25:16,620 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:25:16,657 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:25:31,618 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:25:31,620 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:25:31,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:25:46,618 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:25:46,620 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:25:46,664 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:26:01,619 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:26:01,620 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:26:01,672 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:26:16,621 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:26:16,622 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:26:16,666 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:26:31,628 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:26:31,629 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:26:31,673 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:26:46,622 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:26:46,623 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:26:46,666 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:27:01,628 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:27:01,629 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:27:01,681 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:27:16,620 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:27:16,622 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:27:16,665 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:27:31,620 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:27:31,622 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:27:31,678 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:27:46,615 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:27:46,616 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:27:46,638 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:28:01,621 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:28:01,624 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:28:01,670 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:28:16,619 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:28:16,619 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:28:16,648 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:28:31,621 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:28:31,622 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:28:31,672 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:28:46,624 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:28:46,625 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:28:46,663 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:29:01,630 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:29:01,631 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:29:01,680 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:29:16,624 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:29:16,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:29:16,665 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:29:31,623 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:29:31,625 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:29:31,666 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:29:46,622 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:29:46,624 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:29:46,657 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:30:01,623 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:30:01,624 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:30:01,669 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:30:16,623 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:30:16,624 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:30:16,659 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:30:31,623 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:30:31,625 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:30:31,671 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:30:46,623 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:30:46,624 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:30:46,661 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:31:01,631 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:31:01,632 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:31:01,683 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:31:16,625 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:31:16,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:31:16,667 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:31:31,631 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:31:31,632 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:31:31,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:31:46,624 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:31:46,627 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:31:46,653 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:32:01,624 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:32:01,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:32:01,669 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:32:16,624 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:32:16,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:32:16,659 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:32:31,623 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:32:31,624 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:32:31,649 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:32:46,624 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:32:46,625 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:32:46,665 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:33:01,625 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:33:01,627 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:33:01,677 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:33:16,625 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:33:16,627 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:33:16,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:33:31,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:33:31,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:33:31,686 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:33:46,619 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:33:46,620 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:33:46,635 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:34:01,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:34:01,635 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:34:01,691 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:34:16,625 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:34:16,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:34:16,665 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:34:31,626 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:34:31,627 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:34:31,678 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:34:46,625 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:34:46,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:34:46,653 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:35:01,621 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:35:01,621 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:35:01,638 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:35:16,626 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:35:16,627 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:35:16,666 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:35:31,634 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:35:31,635 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:35:31,682 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:35:46,629 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:35:46,630 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:35:46,652 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:36:01,636 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:36:01,637 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:36:01,689 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:36:16,629 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:36:16,631 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:36:16,661 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:36:31,629 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:36:31,631 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:36:31,681 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:36:46,628 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:36:46,629 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:36:46,669 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:37:01,630 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:37:01,631 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:37:01,681 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:37:16,629 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:37:16,631 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:37:16,670 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:37:31,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:37:31,640 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:37:31,681 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:37:46,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:37:46,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:37:46,671 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:38:01,631 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:38:01,632 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:38:01,683 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:38:16,631 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:38:16,632 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:38:16,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:38:31,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:38:31,633 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:38:31,682 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:38:46,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:38:46,633 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:38:46,669 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:39:01,626 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:39:01,626 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:39:01,639 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:39:16,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:39:16,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:39:16,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:39:31,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:39:31,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:39:31,692 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:39:46,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:39:46,633 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:39:46,671 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:40:01,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:40:01,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:40:01,681 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:40:16,629 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:40:16,630 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:40:16,659 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:40:31,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:40:31,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:40:31,685 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:40:46,629 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:40:46,630 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:40:46,656 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:41:01,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:41:01,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:41:01,692 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:41:16,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:41:16,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:41:16,671 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:41:31,636 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:41:31,637 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:41:31,661 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:41:46,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:41:46,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:41:46,672 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:42:01,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:42:01,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:42:01,685 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:42:16,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:42:16,635 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:42:16,672 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:42:31,633 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:42:31,634 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:42:31,686 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:42:46,629 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:42:46,630 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:42:46,652 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:43:01,641 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:43:01,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:43:01,694 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:43:16,637 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:43:16,639 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:43:16,674 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:43:31,636 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:43:31,637 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:43:31,689 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:43:46,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:43:46,633 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:43:46,662 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:44:01,637 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:44:01,638 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:44:01,690 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:44:16,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:44:16,633 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:44:16,646 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:44:31,636 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:44:31,637 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:44:31,689 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:44:46,637 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:44:46,639 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:44:46,675 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:45:01,632 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:45:01,632 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:45:01,650 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:45:16,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:45:16,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:45:16,681 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:45:31,646 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:45:31,647 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:45:31,692 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:45:46,638 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:45:46,639 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:45:46,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:46:01,638 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:46:01,640 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:46:01,674 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:46:16,638 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:46:16,640 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:46:16,673 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:46:31,638 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:46:31,639 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:46:31,690 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:46:46,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:46:46,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:46:46,672 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:47:01,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:47:01,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:47:01,683 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:47:16,641 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:47:16,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:47:16,683 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:47:31,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:47:31,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:47:31,691 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:47:46,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:47:46,640 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:47:46,670 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:48:01,634 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:48:01,635 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:48:01,651 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:48:16,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:48:16,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:48:16,668 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:48:31,634 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:48:31,635 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:48:31,650 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:48:46,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:48:46,640 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:48:46,679 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:49:01,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:49:01,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:49:01,692 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:49:16,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:49:16,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:49:16,664 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:49:31,643 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:49:31,644 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:49:31,658 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:49:46,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:49:46,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:49:46,682 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:50:01,641 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:50:01,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:50:01,694 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:50:16,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:50:16,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:50:16,677 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:50:31,641 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:50:31,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:50:31,666 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:50:46,641 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:50:46,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:50:46,670 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:51:01,642 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:51:01,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:51:01,689 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:51:16,641 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:51:16,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:51:16,679 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:51:31,646 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:51:31,647 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:51:31,664 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:51:46,645 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:51:46,647 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:51:46,682 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:52:01,651 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:52:01,653 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:52:01,702 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:52:16,642 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:52:16,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:52:16,671 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:52:31,644 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:52:31,645 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:52:31,697 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:52:46,638 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:52:46,639 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:52:46,651 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:53:01,644 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:53:01,646 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:53:01,684 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:53:16,644 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:53:16,646 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:53:16,680 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:53:31,642 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:53:31,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:53:31,660 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:53:46,640 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:53:46,641 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:53:46,657 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:54:01,652 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:54:01,654 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:54:01,710 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:54:16,641 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:54:16,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:54:16,662 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:54:31,639 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:54:31,639 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:54:31,652 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:54:46,645 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:54:46,646 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:54:46,684 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:55:01,645 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:55:01,647 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:55:01,696 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:55:16,645 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:55:16,646 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:55:16,668 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:55:31,645 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:55:31,646 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:55:31,690 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:55:46,648 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:55:46,650 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:55:46,690 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:56:01,650 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:56:01,651 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:56:01,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:56:16,647 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:56:16,648 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:56:16,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:56:31,645 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:56:31,646 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:56:31,685 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:56:46,642 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:56:46,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:56:46,661 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:57:01,648 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:57:01,649 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:57:01,708 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:57:16,645 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:57:16,645 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:57:16,681 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:57:31,655 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:57:31,656 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:57:31,707 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:57:46,647 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:57:46,649 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:57:46,687 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:58:01,643 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:58:01,644 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:58:01,659 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:58:16,647 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:58:16,649 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:58:16,687 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:58:31,648 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:58:31,650 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:58:31,699 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:58:46,642 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:58:46,642 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:58:46,654 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:59:01,646 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:59:01,647 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:59:01,674 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:59:16,642 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:59:16,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:59:16,662 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:59:31,656 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:59:31,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:59:31,711 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 10:59:46,642 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 10:59:46,643 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 10:59:46,654 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:00:01,649 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:00:01,650 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:00:01,698 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:00:16,648 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:00:16,649 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:00:16,689 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:00:31,648 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:00:31,650 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:00:31,700 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:00:46,648 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:00:46,650 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:00:46,700 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:01:01,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:01:01,659 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:01:01,716 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:01:16,652 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:01:16,654 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:01:16,695 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:01:31,646 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:01:31,646 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:01:31,660 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:01:46,651 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:01:46,653 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:01:46,684 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:02:01,652 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:02:01,653 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:02:01,704 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:02:16,652 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:02:16,653 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:02:16,703 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:02:31,652 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:02:31,653 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:02:31,676 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:02:46,652 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:02:46,653 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:02:46,678 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:03:01,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:03:01,662 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:03:01,708 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:03:16,656 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:03:16,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:03:16,698 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:03:31,655 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:03:31,656 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:03:31,707 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:03:46,654 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:03:46,656 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:03:46,700 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:04:01,655 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:04:01,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:04:01,698 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:04:16,655 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:04:16,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:04:16,690 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:04:31,656 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:04:31,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:04:31,714 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:04:46,655 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:04:46,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:04:46,691 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:05:01,655 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:05:01,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:05:01,693 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:05:16,658 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:05:16,659 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:05:16,700 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:05:31,665 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:05:31,666 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:05:31,710 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:05:46,656 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:05:46,658 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:05:46,696 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:06:01,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:06:01,658 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:06:01,709 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:06:16,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:06:16,658 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:06:16,690 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:06:31,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:06:31,659 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:06:31,709 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:06:46,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:06:46,658 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:06:46,693 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:07:01,651 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:07:01,652 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:07:01,664 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:07:16,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:07:16,658 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:07:16,698 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:07:31,658 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:07:31,659 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:07:31,706 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:07:46,659 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:07:46,660 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:07:46,700 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:08:01,659 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:08:01,660 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:08:01,701 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:08:16,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:08:16,658 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:08:16,709 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:08:31,659 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:08:31,660 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:08:31,701 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:08:46,658 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:08:46,660 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:08:46,697 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:09:01,659 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:09:01,660 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:09:01,717 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:09:16,659 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:09:16,660 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:09:16,705 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:09:31,667 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:09:31,669 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:09:31,719 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:09:46,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:09:46,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:09:46,696 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:10:01,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:10:01,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:10:01,704 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:10:16,660 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:10:16,662 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:10:16,700 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:10:31,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:10:31,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:10:31,704 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:10:46,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:10:46,662 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:10:46,703 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:11:01,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:11:01,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:11:01,713 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:11:16,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:11:16,662 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:11:16,703 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:11:31,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:11:31,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:11:31,703 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:11:46,658 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:11:46,659 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:11:46,686 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:12:01,657 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:12:01,657 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:12:01,677 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:12:16,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:12:16,662 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:12:16,701 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:12:31,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:12:31,664 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:12:31,704 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:12:46,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:12:46,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:12:46,692 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:13:01,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:13:01,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:13:01,714 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:13:16,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:13:16,662 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:13:16,684 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:13:31,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:13:31,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:13:31,714 - INFO - Horaires mis en cache (2 horaires).
+2025-12-09 11:13:46,661 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:13:46,661 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:13:46,696 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:14:01,663 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:14:01,664 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:14:01,713 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:14:01,721 - INFO - Séance créée : ALGO pour la classe 1 (11:14 - 11:55)
+2025-12-09 11:14:16,663 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:14:16,664 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:14:16,701 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:14:31,658 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:14:31,658 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:14:31,675 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:14:43,138 - ERROR - Erreur DB lors de l'enregistrement de la présence : null value in column "seance_cours_id" of relation "presence" violates not-null constraint
+DETAIL:  Failing row contains (2, t, 1, null, 2025-12-09 10:14:43.136642+00, 2025-12-09 10:14:43.136664+00).
+
+2025-12-09 11:14:46,663 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:14:46,665 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:14:46,704 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:15:01,663 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:15:01,665 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:15:01,709 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:15:10,006 - INFO - Présence enregistrée: etudiant=987654, classe=1, cours=1, seance=10
+2025-12-09 11:15:16,663 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:15:16,665 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:15:16,700 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:15:31,671 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:15:31,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:15:31,724 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:15:46,663 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:15:46,664 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:15:46,719 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:16:01,664 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:16:01,665 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:16:01,708 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:16:16,664 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:16:16,666 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:16:16,694 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:16:31,665 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:16:31,666 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:16:31,729 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:16:46,664 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:16:46,666 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:16:46,708 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:17:01,665 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:17:01,666 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:17:01,716 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:17:16,666 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:17:16,667 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:17:16,712 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:17:17,157 - INFO - Présence enregistrée: etudiant=987654, classe=1, cours=1, seance=10
+2025-12-09 11:17:31,665 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:17:31,666 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:17:31,710 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:17:46,666 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:17:46,667 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:17:46,710 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:18:01,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:18:01,662 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:18:01,685 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:18:16,662 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:18:16,663 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:18:16,693 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:18:31,666 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:18:31,668 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:18:31,730 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:18:46,667 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:18:46,668 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:18:46,706 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:19:01,667 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:19:01,669 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:19:01,711 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:19:16,667 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:19:16,668 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:19:16,710 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:19:31,666 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:19:31,667 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:19:31,692 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:19:46,666 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:19:46,667 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:19:46,717 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:20:01,667 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:20:01,669 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:20:01,716 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:20:16,667 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:20:16,668 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:20:16,722 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:20:31,668 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:20:31,669 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:20:31,717 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:20:46,667 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:20:46,668 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:20:46,697 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:21:01,666 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:21:01,667 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:21:01,690 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:21:16,671 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:21:16,672 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:21:16,712 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:21:31,670 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:21:31,671 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:21:31,726 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:21:46,670 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:21:46,671 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:21:46,707 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:22:01,670 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:22:01,672 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:22:01,718 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:22:16,670 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:22:16,672 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:22:16,709 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:22:31,668 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:22:31,669 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:22:31,705 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:22:46,670 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:22:46,672 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:22:46,734 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:23:01,678 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:23:01,680 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:23:01,723 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:23:12,026 - INFO - Présence enregistrée: etudiant=987654, classe=1, cours=1, seance=10
+2025-12-09 11:23:16,671 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:23:16,672 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:23:16,708 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:23:31,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:23:31,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:23:31,727 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:23:46,668 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:23:46,669 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:23:46,690 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:24:01,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:24:01,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:24:01,722 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:24:16,671 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:24:16,672 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:24:16,714 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:24:31,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:24:31,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:24:31,727 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:24:46,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:24:46,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:24:46,705 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:25:01,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:25:01,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:25:01,729 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:25:16,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:25:16,674 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:25:16,712 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:25:31,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:25:31,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:25:31,717 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:25:46,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:25:46,674 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:25:46,708 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:26:01,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:26:01,674 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:26:01,716 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:26:16,672 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:26:16,673 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:26:16,712 - INFO - Horaires mis en cache (3 horaires).
+2025-12-09 11:26:31,673 - INFO - Génération des séances pour le jour 2025-12-09 (weekday=1)
+2025-12-09 11:26:31,675 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-09 11:26:31,721 - INFO - Horaires mis en cache (3 horaires).

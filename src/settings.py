@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "channels",
     "djangochannelsrestframework",
     "presence_manager.apps.PresenceConfig",
+    "users"
 ]
 
 ASGI_APPLICATION = "src.asgi.application"
@@ -142,7 +143,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "fr-cd"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Africa/Kinshasa"
 
 USE_I18N = True
 
