@@ -5425,3 +5425,12 @@ DETAIL:  Failing row contains (4, t, 1, null).
 2025-12-08 12:24:28,337 - INFO - Génération des séances pour le jour 2025-12-08 (weekday=0)
 2025-12-08 12:24:28,338 - INFO - Cache vide → récupération des horaires depuis la DB.
 2025-12-08 12:24:28,378 - INFO - Horaires mis en cache (1 horaires).
+2025-12-08 12:24:43,337 - INFO - Génération des séances pour le jour 2025-12-08 (weekday=0)
+2025-12-08 12:24:43,338 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-08 12:24:43,350 - INFO - Horaires mis en cache (1 horaires).
+2025-12-08 12:24:58,329 - INFO - Génération des séances pour le jour 2025-12-08 (weekday=0)
+2025-12-08 12:24:58,329 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-08 12:24:58,340 - INFO - Horaires mis en cache (1 horaires).
+2025-12-08 12:25:13,330 - INFO - Génération des séances pour le jour 2025-12-08 (weekday=0)
+2025-12-08 12:25:13,330 - INFO - Cache vide → récupération des horaires depuis la DB.
+2025-12-08 12:25:13,341 - INFO - Horaires mis en cache (1 horaires).
